@@ -5,6 +5,8 @@ footer {
   flex-direction: column;
   row-gap: 30px;
   padding-block: 40px 60px;
+  background-color: var(--nav-color);
+  color: var(--nav-text-color);
 
   .top-footer {
     font-size: 20px;
@@ -18,7 +20,7 @@ footer {
       list-style: none;
       a {
         text-decoration: none;
-        color: var(--text-color);
+        color: var(--nav-hover-color);
         font-weight: 500;
         margin-inline: 20px;
       }
